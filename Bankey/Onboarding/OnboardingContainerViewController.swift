@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol LogoutDelegate: AnyObject {
+    func didLogout()
+}
+
 protocol OnboardingContainerViewControllerDelegate: AnyObject {
     func didFinishOnboarding()
 }
