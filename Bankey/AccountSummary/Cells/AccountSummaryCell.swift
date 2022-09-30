@@ -56,7 +56,7 @@ extension AccountSummaryCell {
     private func setup() {
         typeLabel.translatesAutoresizingMaskIntoConstraints = false
         typeLabel.font = UIFont.preferredFont(forTextStyle: .caption1)
-        typeLabel.adjustsFontForContentSizeCategory = true
+        typeLabel.adjustsFontSizeToFitWidth = true
         typeLabel.text = "Account type"
         
         underlineView.translatesAutoresizingMaskIntoConstraints = false
@@ -64,7 +64,7 @@ extension AccountSummaryCell {
         
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.font = UIFont.preferredFont(forTextStyle: .body)
-        nameLabel.adjustsFontForContentSizeCategory = true
+        nameLabel.adjustsFontSizeToFitWidth = true
         nameLabel.text = "Account name"
         
         balanceStackView.translatesAutoresizingMaskIntoConstraints = false
@@ -73,14 +73,13 @@ extension AccountSummaryCell {
         
         balanceLabel.translatesAutoresizingMaskIntoConstraints = false
         balanceLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        balanceLabel.adjustsFontSizeToFitWidth = true
         balanceLabel.textAlignment = .right
         balanceLabel.text = "Some balance"
         
         balanceAmountLabel.translatesAutoresizingMaskIntoConstraints = false
         balanceAmountLabel.font = UIFont.preferredFont(forTextStyle: .body)
         balanceAmountLabel.textAlignment = .right
-//        balanceAmountLabel.attributedText = makeFormattedBalance(dollars: "XXX,XXX", cents: "XX")
-//        balanceAmountLabel.text = "$XXX,XXX.XX"
         balanceAmountLabel.attributedText = makeFormattedBalance(dollars: "XXX,XXX", cents: "XX")
         
         chevronImageView.translatesAutoresizingMaskIntoConstraints = false
