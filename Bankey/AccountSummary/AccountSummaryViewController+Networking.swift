@@ -13,8 +13,6 @@ enum NetworkError: Error {
     case decodingError
 }
 
-
-
 struct Profile: Codable {
     let id: String
     let firstName: String
