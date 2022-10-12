@@ -32,6 +32,8 @@
 		A8CEF0C828B6522900D55417 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CEF0C728B6522900D55417 /* CurrencyFormatter.swift */; };
 		A8E71AEC28F021F90050B9CB /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71AEB28F021F90050B9CB /* ProfileTests.swift */; };
 		A8E71AEE28F022950050B9CB /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71AED28F022950050B9CB /* AccountTests.swift */; };
+		A8E71AF028F6CE350050B9CB /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71AEF28F6CE350050B9CB /* SkeletonLoadable.swift */; };
+		A8E71AF228F6CFE80050B9CB /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E71AF128F6CFE80050B9CB /* SkeletonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		A8CEF0C728B6522900D55417 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		A8E71AEB28F021F90050B9CB /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
 		A8E71AED28F022950050B9CB /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		A8E71AEF28F6CE350050B9CB /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
+		A8E71AF128F6CFE80050B9CB /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				A885E95B28AF93C5000D85BD /* AccountSummaryCell.swift */,
+				A8E71AEF28F6CE350050B9CB /* SkeletonLoadable.swift */,
+				A8E71AF128F6CFE80050B9CB /* SkeletonCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -334,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A885E92F28AD1CDF000D85BD /* UIViewController+Utils.swift in Sources */,
+				A8E71AF228F6CFE80050B9CB /* SkeletonCell.swift in Sources */,
 				A8C73D4428EEEABF007D7162 /* Date+Utils.swift in Sources */,
 				A84E0166287ED5C6009EC52A /* LoginView.swift in Sources */,
 				A885E8E728ABCBF6000D85BD /* LocalState.swift in Sources */,
@@ -351,6 +358,7 @@
 				A885E95428AE5079000D85BD /* AccountSummaryViewController.swift in Sources */,
 				A84E0150287DB326009EC52A /* AppDelegate.swift in Sources */,
 				A84E01692886E804009EC52A /* OnboardingContainerViewController.swift in Sources */,
+				A8E71AF028F6CE350050B9CB /* SkeletonLoadable.swift in Sources */,
 				A8C73D4728EEEC02007D7162 /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
